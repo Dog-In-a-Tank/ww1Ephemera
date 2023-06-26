@@ -5,7 +5,7 @@ library(kableExtra)
 ##############################################################
 # Load Data
 ##############################################################
-impData <-read_excel("./MasterRecord.xlsx,1)
+impData <-read_excel("./MasterRecord.xlsx",1)
 #Add combined date Column 
 impData$entry_Date <-as.Date(with(impData,paste(entry_Year,entry_Month,entry_Day,sep="-")),"%Y-%m-%d")
 #FILTER DATA SOURCE HERE 
