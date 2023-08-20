@@ -3,9 +3,15 @@ RStudio project to catalogue WW1 related Ephemera
 
 https://robertstjohnsmith.com/categories/ephemera/
 
+# Update 20/08/23
+
+New addition, Autograph book that once belonged to a Doris Edith May Orridge 
+
+https://robertstjohnsmith.com/post/doris-edith-may-orridge-autographbook/
+
 # Update 26/07/23
 
-New addition, Autograph book that once belonged to a  Mary Ann Murray
+New addition, Autograph book that once belonged to a Mary Ann Murray
 
 https://robertstjohnsmith.com/post/2023-06-26-ephemera-mary-ann-murray-a-housemaid-from-dunkeld-hampton-hall-malpas/
 

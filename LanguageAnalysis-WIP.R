@@ -11,7 +11,7 @@ library(ggtext)
 ##############################################################
 # Load Data
 ##############################################################
-impData <-read_excel("./MasterRecord - wip_v4.xlsx",1)
+impData <-read_excel("./MasterRecord.xlsx",1)
 
 ##############################################################
 #Get Sentiments
@@ -76,7 +76,7 @@ result<-tidy_word%>%
 result2 <-result%>%
   group_by(ref,sentiment) %>% tally()%>%mutate(Percent = n/sum(n))
  
-result4 <-result2%>%fct_reorder(sentiment= Ref, sentiment,percent)
+#result4 <-result2%>%fct_reorder(sentiment= Ref, sentiment,percent)
 #result3 <-result2%>%arrange(ref,desc(n)) %>%mutate(rank = row_number())#ranking 
 
 ##############################################################
