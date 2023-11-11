@@ -12,7 +12,7 @@ impData$entry_Date <-as.Date(with(impData,paste(entry_Year,entry_Month,entry_Day
 impData$lenSignature <- nchar((impData$creator_Signature))
 
 #FILTER DATA SOURCE HERE 
-impData <-subset(impData,REF=="HAMPTON - CHESHIRE-270223")
+#impData <-subset(impData,REF=="Broken Blue - 030423")
 impData <-subset(impData,creator_is_Military =="Y")
 
 ##############################################################

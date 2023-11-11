@@ -2,6 +2,8 @@ library(readxl)
 library(dplyr)
 library(measurements)
 library(mapview)
+library(htmltools)
+library(htmlwidgets)
 library("sf")
 ##############################################################
 # Load Data
@@ -28,4 +30,10 @@ mapviewOptions(basemaps = c("Esri.WorldShadedRelief","Esri.WorldGrayCanvas"),
                raster.palette = grey.colors,
                layers.control.pos = "bottomright",legend= FALSE)
 
-mapview(result3,col.regions = "Yellow")
+map<-mapview(result3,col.regions = "Green")
+
+
+
+
+
+

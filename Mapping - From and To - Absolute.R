@@ -8,7 +8,7 @@ library(mapdeck)
 # Load Data
 ##############################################################
 
-impData <-read_excel("./MasterRecord.xlsx",1)
+impData <-read_excel("./MasterRecord - wip_v3.xlsx",1)
 #Add combined date Column 
 impData$entry_Date <-as.Date(with(impData,paste(entry_At,entry_Year,entry_Month,entry_Day,sep="-")),"%Y-%m-%d")
 #FILTER DATA SOURCE HERE 
@@ -30,7 +30,7 @@ result2$DistCrowFlies<-conv_unit(result2$DistCrowFlies,"m","mi")
 # Output results 
 ##############################################################
 
-set_token(##REPLACE WITH KEY **)
+set_token("pk.eyJ1IjoiY2hhbmNlNDMyMSIsImEiOiJjbGZmanp2NncyenB1M3lwY3duZ3Ruc2JkIn0.wUF0oSjRVwBr5Ok-_LoE7Q")
 
 
 mapdeck(
