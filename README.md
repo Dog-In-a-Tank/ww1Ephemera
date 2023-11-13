@@ -3,6 +3,12 @@ RStudio project to catalogue WW1 related Ephemera
 
 https://robertstjohnsmith.com/categories/ephemera/
 
+# Update 13/11/23
+
+New Addition, Autograph Book belonging to an Unknown Arthur
+
+https://robertstjohnsmith.com/post/2023-11-13-ephemera-an-autograph-book-belonging-to-an-unknown-arthur-and-postcard-propaganda/
+
 # Update 20/08/23
 
 New addition, Autograph book that once belonged to a Doris Edith May Orridge 
